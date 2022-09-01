@@ -3,7 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/config.php');
 if (strlen($_SESSION['alogin']) == 0) {
-	header('location:index.php');
+	header('location:index.html');
 } else {
 
 	if (isset($_POST['submit'])) {
